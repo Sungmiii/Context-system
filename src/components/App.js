@@ -28,6 +28,13 @@ class App extends React.Component {
         >
           <UserCreate />
         </LanguageContext.Provider>
+
+        <LanguageContext.Provider
+          value="korean"
+        >
+          <UserCreate />
+        </LanguageContext.Provider>
+        <UserCreate />
       </div>
     );
   }
