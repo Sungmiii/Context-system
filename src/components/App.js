@@ -13,9 +13,7 @@ class App extends React.Component {
       <div className="ui container">
         <LanguageStore>
           <LanguageSelector />
-          <ColorContext.Provider
-            value='red'
-          >
+          <ColorContext.Provider>
             <UserCreate />
           </ColorContext.Provider>
         </LanguageStore>
